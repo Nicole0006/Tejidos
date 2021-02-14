@@ -129,9 +129,6 @@ body.nav_fixed .nav .wrap{
 
 
 
-
-
-
 @charset "UTF-8";
 
 @font-face {
@@ -183,7 +180,9 @@ body.nav_fixed .nav .wrap{
 body{
     background-image: url(Found/Fondo.png.png);
     height: 100vh;
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
+
 }
 
 .buscar{
