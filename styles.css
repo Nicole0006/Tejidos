@@ -89,6 +89,14 @@ nav a{
     transition: 0.2s ease all;
 }
 
+.fab{
+    width: 17px;
+    text-align: center;
+    font-size: 22px;
+}
+
+
+
 <!--nav a:hover{
     color: none;
     background: rgb(232, 170, 238);
@@ -109,6 +117,14 @@ body.nav_fixed .nav .wrap{
     left: 0;
 }
 
+
+@media screen and (max-width: 750px){
+    .logo.logo_main{
+        font-size: 40px;
+        padding: 0;
+        text-align: center
+    }
+}
 
 
 
@@ -338,9 +354,6 @@ main{
         width: 48%;
     }
 }
-
-
-
 
 
 
