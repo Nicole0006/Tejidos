@@ -8,11 +8,6 @@ if( $(window).scrollTop() >= elementTop){
 }
 });
 
-
-
-
-
-
 document.querySelector('h1').addEventListener('click', ()=> {
     document.body.style.background = 'pink';
 })
